@@ -1,0 +1,15 @@
+{
+  "hsToolsmith": true,
+  "title": "fastapi-rag-kit",
+  "pitch": "Drop-in FastAPI utilities for RAG endpoints with citations, caching, and eval hooks.",
+  "language": "python",
+  "category": "Middleware",
+  "keyFeatures": [
+    "Pydantic models for RAG requests, citations, and tool results",
+    "Streaming SSE responses with standardized chunk schema",
+    "Pluggable retriever interface (FAISS/Chroma/http) with caching",
+    "Built-in tracing hooks for prompt, context, and latency",
+    "Minimal eval harness: golden-set checks for groundedness and citation coverage"
+  ],
+  "targetUsers": "FastAPI developers shipping production RAG chat/search endpoints who need consistent request/response patterns."
+}
